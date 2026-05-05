@@ -1,0 +1,259 @@
+.fornecedores-page {
+    padding: 24px;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+.fornecedores-page .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.fornecedores-page .page-header h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #1e293b;
+    margin: 0;
+}
+
+.fornecedores-page .page-header p {
+    color: #64748b;
+    margin: 4px 0 0 0;
+}
+
+.toolbar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+.search-box svg {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 12px 12px 42px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+    outline: none;
+}
+
+.filters {
+    display: flex;
+    gap: 12px;
+}
+
+.filters select {
+    padding: 10px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: white;
+    color: #475569;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fornecedores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.fornecedor-card {
+    background: white;
+    border-radius: 20px;
+    border: 2px solid #e2e8f0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.fornecedor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: #3b82f6;
+}
+
+.card-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.company-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    background: #eff6ff;
+    color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+
+.company-info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.document {
+    font-size: 12px;
+    color: #64748b;
+}
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 0 20px 20px 20px;
+}
+
+.info-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #64748b;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.categories {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.cat-tag {
+    background: #f1f5f9;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.stats-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.stat label {
+    display: block;
+    font-size: 11px;
+    color: #94a3b8;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rating-value {
+    font-weight: 700;
+    color: #1e293b;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.card-footer {
+    padding: 16px 20px;
+    background: #f8fafc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-icon {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.btn-icon:hover {
+    background: #e2e8f0;
+    color: #1e293b;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-action {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-action.block {
+    background: #fee2e2;
+    color: #ef4444;
+}
+
+.btn-action.unblock {
+    background: #dcfce7;
+    color: #10b981;
+}
+
+.btn-view {
+    padding: 8px 16px;
+    background: #eff6ff;
+    color: #3b82f6;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-view:hover {
+    background: #3b82f6;
+    color: white;
+}

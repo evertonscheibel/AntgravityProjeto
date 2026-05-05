@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "693deb608d10c140a6540368"
+  },
+  "title": "Configuração de impressora de rede",
+  "content": "# Configurar Impressora de Rede\n\n## Requisitos\n- IP da impressora\n- Driver instalado\n\n## Passos\n1. Abra Painel de Controle\n2. Vá em Dispositivos e Impressoras\n3. Adicionar impressora\n4. Selecionar impressora de rede\n5. Digite o IP: 192.168.1.100\n6. Instalar driver\n7. Testar impressão",
+  "category": "Hardware",
+  "tags": [
+    "impressora",
+    "rede",
+    "configuração"
+  ],
+  "author": {
+    "$oid": "693deb608d10c140a6540353"
+  },
+  "views": 32,
+  "published": true,
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.821Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.821Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693deb608d10c140a6540367"
+  },
+  "title": "Como resetar senha do sistema",
+  "content": "# Resetar Senha do Sistema\n\n## Passo 1\nAcesse a página de login e clique em \"Esqueci minha senha\"\n\n## Passo 2\nDigite seu email cadastrado\n\n## Passo 3\nVerifique seu email e clique no link de recuperação\n\n## Passo 4\nCrie uma nova senha forte com pelo menos 8 caracteres",
+  "category": "Tutoriais",
+  "tags": [
+    "senha",
+    "login",
+    "acesso"
+  ],
+  "author": {
+    "$oid": "693deb608d10c140a6540351"
+  },
+  "views": 45,
+  "published": true,
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.821Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.821Z"
+  },
+  "__v": 0
+}]

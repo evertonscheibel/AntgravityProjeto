@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "693deb608d10c140a6540363"
+  },
+  "name": "SSL - gestao.com.br",
+  "type": "ssl",
+  "issueDate": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "expirationDate": {
+    "$date": "2026-01-07T22:40:32.817Z"
+  },
+  "provider": "Let's Encrypt",
+  "status": "ativo",
+  "notificationsSent": {
+    "days30": false,
+    "days15": false,
+    "days7": false
+  },
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693deb608d10c140a6540364"
+  },
+  "name": "Microsoft Office 365",
+  "type": "licenca_software",
+  "issueDate": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "expirationDate": {
+    "$date": "2026-03-13T22:40:32.817Z"
+  },
+  "provider": "Microsoft",
+  "status": "ativo",
+  "notificationsSent": {
+    "days30": false,
+    "days15": false,
+    "days7": false
+  },
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.818Z"
+  },
+  "__v": 0
+}]

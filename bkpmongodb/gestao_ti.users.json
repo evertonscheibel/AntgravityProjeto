@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "693deb608d10c140a6540351"
+  },
+  "name": "Administrador",
+  "email": "admin@gestao.com",
+  "password": "$2a$10$IB4uzFy/FmS2.0usfGz02euohEcVzSj1Azzn8YfXabYqcre3l8TVW",
+  "role": "admin",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.630Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.630Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693deb608d10c140a6540353"
+  },
+  "name": "João Silva",
+  "email": "joao@gestao.com",
+  "password": "$2a$10$XCXbmlI3w7ogMmUGzeNCDuY8IuJC5rCmW.rOsS2IOMCVkAN9ZjwgO",
+  "role": "tecnico",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693deb608d10c140a6540355"
+  },
+  "name": "Maria Santos",
+  "email": "maria@cliente.com",
+  "password": "$2a$10$WXej1YqLc3.TRsWmy.y0gOMwx1d4smJ4W6URyxHkhMuCEz0enluFG",
+  "role": "cliente",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.753Z"
+  },
+  "__v": 0
+}]

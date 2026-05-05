@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "693deb608d10c140a654035e"
+  },
+  "title": "Problema de acesso ao sistema",
+  "description": "Não consigo acessar o sistema de gestão. Aparece erro de autenticação.",
+  "category": "acesso",
+  "priority": "media",
+  "status": "em_andamento",
+  "requester": {
+    "$oid": "693deb608d10c140a6540355"
+  },
+  "isPublic": false,
+  "assignedTo": {
+    "$oid": "693deb608d10c140a6540353"
+  },
+  "comments": [],
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693deb608d10c140a654035f"
+  },
+  "title": "Instalação de software",
+  "description": "Preciso instalar o Adobe Acrobat Pro no meu computador.",
+  "category": "software",
+  "priority": "baixa",
+  "status": "resolvido",
+  "requester": {
+    "$oid": "693deb608d10c140a6540355"
+  },
+  "isPublic": false,
+  "assignedTo": {
+    "$oid": "693deb608d10c140a6540353"
+  },
+  "resolvedAt": {
+    "$date": "2025-12-13T22:40:32.813Z"
+  },
+  "comments": [],
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693deb608d10c140a654035d"
+  },
+  "title": "Computador não liga",
+  "description": "O computador da sala 205 não está ligando. Já tentei verificar os cabos.",
+  "category": "hardware",
+  "priority": "alta",
+  "status": "aberto",
+  "requester": {
+    "$oid": "693deb608d10c140a6540355"
+  },
+  "isPublic": false,
+  "asset": {
+    "$oid": "693deb608d10c140a6540357"
+  },
+  "comments": [],
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-12-13T22:40:32.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T22:40:32.814Z"
+  },
+  "__v": 0
+}]

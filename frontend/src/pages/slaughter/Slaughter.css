@@ -1,0 +1,152 @@
+/* 
+ * Estilos — Módulo Indústria: Escala de Abate
+ * Baseado no layout Bridge Gestão TI
+ */
+
+.slaughter-container {
+    padding: 20px;
+    background-color: #f8fafc;
+    min-height: calc(100vh - 64px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.slaughter-header {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+    color: white;
+    padding: 24px 32px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 25px -5px rgba(30, 27, 75, 0.3);
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.slaughter-header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.slaughter-header-purple {
+    background: linear-gradient(135deg, #6d5dfc 0%, #4f46e5 100%);
+    box-shadow: 0 10px 25px -5px rgba(109, 93, 252, 0.3);
+}
+
+/* Totals Row */
+.total-card {
+    background: white;
+    padding: 24px;
+    border-radius: 20px;
+    border-left: 5px solid #6d5dfc;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.total-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.total-card.highlight {
+    background: linear-gradient(135deg, #6d5dfc 0%, #4f46e5 100%);
+    color: white;
+    border-left: none;
+}
+
+.total-card .value {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: right;
+    letter-spacing: -0.5px;
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+/* Table Enhancements */
+.slaughter-table-container {
+    background: white;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.slaughter-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px; /* Force scroll on small screens */
+}
+
+
+.slaughter-table th {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #94a3b8;
+}
+
+.slaughter-table tr:last-child td {
+    border-bottom: none;
+}
+
+.slaughter-table td input:focus {
+    border-color: #6d5dfc;
+    box-shadow: 0 0 0 3px rgba(109, 93, 252, 0.1);
+}
+
+/* Params Field */
+.params-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.param-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.param-field label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #cbd5e1;
+    font-weight: 700;
+}
+
+.param-field input {
+    background: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e1b4b;
+    width: 100px;
+}

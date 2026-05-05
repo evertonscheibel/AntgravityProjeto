@@ -1,0 +1,29 @@
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+    background: #f5f7fa;
+}
+
+.main-content {
+    flex: 1;
+    transition: margin-left 0.3s ease;
+    min-height: 100vh;
+}
+
+.main-content.sidebar-open {
+    margin-left: 260px;
+}
+
+.main-content.sidebar-closed {
+    margin-left: 70px;
+}
+
+@media (max-width: 768px) {
+    .main-content.sidebar-open {
+        margin-left: 0;
+    }
+
+    .main-content.sidebar-closed {
+        margin-left: 0;
+    }
+}
