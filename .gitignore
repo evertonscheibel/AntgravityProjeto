@@ -5,3 +5,10 @@ build/
 .DS_Store
 *.log
 .vscode/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.db
+*.db-journal
+*.db-wal
+server/tokens/
